@@ -147,7 +147,7 @@ class GumballMachine
         try
         {
             $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = "UPDATE cours (intitule, duree, id_prof) SET  duree='$duree' where intitule='$intitule')";
+            $sql = "UPDATE cours SET  duree='$duree' where intitule='$intitule')";
             $this->bdd->exec($sql);
 
             return "good job";
