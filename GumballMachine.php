@@ -46,7 +46,9 @@ class GumballMachine
 	        echo "* id: " . $row["id"]. " Last Name: " . $row["nom"]. " First Name: " . $row["prenom"]. " Birth Date: " . $row["date_naissance"]. " birth Place: " . $row["lieu_naissance"] ."\n";
 	    }
 	    return true;
-	    
+
+
+
 	}
 	public function AffichageCours($etat)
 	{

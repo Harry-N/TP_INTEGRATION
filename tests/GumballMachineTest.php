@@ -98,6 +98,8 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
         //$this->assertEquals(true,$this->gumballMachineInstance->DeleteP("XXX1","YYY1")); ne fonctionne pas car le prof est relié à un cours
         $this->assertEquals(true,$this->gumballMachineInstance->AffichageProf("After Delete of Prof"));
 
+
+
     }
 */
     public function testDeleteAllC()
