@@ -6,7 +6,7 @@ class GumballMachine
 	private $gumballs;
 	
 	private $bdd;
-	/* Paramètre de connexion à la base de données*/
+	/* Paramï¿½tre de connexion ï¿½ la base de donnï¿½es*/
 	private $servername="localhost";
 	private $db_name="mydb1"; //a remplir
 	private $db_user="myuser1"; //a remplir
@@ -67,6 +67,7 @@ class GumballMachine
 	       $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	       $sql = "INSERT INTO prof (nom, prenom, date_naissance, lieu_naissance) VALUES ('$nom','$prenom', '$date_naissance','$lieu')";
 	       $bdd->exec($sql);
+
 	       return true;
 	    }
 	    catch(PDOException $e)
@@ -91,6 +92,21 @@ class GumballMachine
 	    $user = $stmt->fetch();
 	    return $user['maximum'];
 	}
+
+    public function GetIdC($intitule)
+    {
+        $stmt = $this->bdd->prepare("select id from cours where intitule=? ");
+        $stmt->execute([$intitule]);
+        $user = $stmt->fetch();
+        return $user['id'];
+    }
+    public function GetLastIDC()
+    {
+        $stmt = $this->bdd->prepare("select max(id) as maximum from cours");
+        $stmt->execute();
+        $user = $stmt->fetch();
+        return $user['maximum'];
+    }
 	
 	public function InsertC($intitule, $duree , $id_prof)
 	{
@@ -99,7 +115,8 @@ class GumballMachine
 	        $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	        $sql = "INSERT INTO cours (intitule, duree, id_prof) VALUES ('$intitule','$duree', '$id_prof')";
 	        $this->bdd->exec($sql);
-	        return "good job";
+
+            return "good job";
 	    }
 	    catch(PDOException $e)
 	    {

@@ -27,29 +27,45 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
     public function testInsertP()
     {
         $max__id1=$this->gumballMachineInstance->GetLastIDP();
+
         $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),$this->nom,$this->prenom,$this->date_naissance,$this->lieu_naissance));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX1","YYY1","29-09-1980","ZZZ1"));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX2","YYY2","30-10-1981","ZZZ2"));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX3","YYY3","31-12-1982","ZZZ3"));
+
         $max__id2=$this->gumballMachineInstance->GetLastIDP();
-        $this->assertEquals($max__id1+1,$max__id2);
+        $this->assertEquals($max__id1+3,$max__id2);
     }
     public function testAffichageProfAPI()
     {
-        /*à completer*/
+        /*ï¿½ completer*/
+
+
     }
      
     
     public function testAffichageCoursAVI()
     {
-        /*à completer*/
+        /*ï¿½ completer*/
     }
     public function testInsertC()
     {
        
-        /*à completer*/
-        
+        /*ï¿½ completer*/
+        $id_prof=$this->gumballMachineInstance->GetIDP("XXX2", "YYY2");
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"IOT","10",$this->$id_prof ));
+
+        $id_prof=$this->gumballMachineInstance->GetIDP("XXX1", "YYY1");
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"IA","12",$this->$id_prof ));
+
+        $id_prof=$this->gumballMachineInstance->GetIDP("XXX3", "YYY3");
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"C++","18",$this->$id_prof ));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"EDL","30",$this->$id_prof ));
+
     }
     public function testAffichageCoursAPI()
     {
-        /*à completer*/
+        /*ï¿½ completer*/
     }
 
    
