@@ -53,10 +53,10 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
        
         /*� completer*/
         $max__id1=$this->gumballMachineInstance->GetLastIDC();
-        $this->assertEquals("good job",$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"IOT","10",$this->gumballMachineInstance->GetIdP("XXX2", "YYY2")));
-        $this->assertEquals("good job",$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"IA","12",$this->gumballMachineInstance->GetIdP("XXX1", "YYY1")));
-        $this->assertEquals("good job",$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"C++","18",$this->gumballMachineInstance->GetIdP("XXX3", "YYY3")));
-        $this->assertEquals("good job",$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"EDL","30",$this->gumballMachineInstance->GetIdP("XXX3", "YYY3") ));
+        $this->assertEquals("good job",$this->gumballMachineInstance->InsertC("IOT","10",$this->gumballMachineInstance->GetIdP("XXX2", "YYY2")));
+        $this->assertEquals("good job",$this->gumballMachineInstance->InsertC("IA","12",$this->gumballMachineInstance->GetIdP("XXX1", "YYY1")));
+        $this->assertEquals("good job",$this->gumballMachineInstance->InsertC("C++","18",$this->gumballMachineInstance->GetIdP("XXX3", "YYY3")));
+        $this->assertEquals("good job",$this->gumballMachineInstance->InsertC("EDL","30",$this->gumballMachineInstance->GetIdP("XXX3", "YYY3") ));
 
         $max__id2=$this->gumballMachineInstance->GetLastIDC();
         $this->assertEquals($max__id1+4,$max__id2);
