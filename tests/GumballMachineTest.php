@@ -14,7 +14,8 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
     private $intitule="***"; //a remplir
     private $duree="***";    //a remplir
     
-        
+
+
     public function setUp()
     {
         $this->gumballMachineInstance = new GumballMachine();
