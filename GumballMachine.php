@@ -125,12 +125,12 @@ class GumballMachine
 	    
 	}
 	
-	public function UpdateP($nom, $prenom,$date_naissance,$lieu,$idProf)
+	public function UpdateP($nom, $prenom,$lieu)
 	{
         try
         {
             $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = "UPDATE  prof (nom, prenom, date_naissance, lieu_naissance) SET nom='$nom',prenom='$prenom', date_naissance='$date_naissance',lieu='$lieu' where id = '$idProf)'";
+            $sql = "UPDATE  prof SET lieu='$lieu' where nom='$nom' and prenom = '$prenom'";
             $this->bdd->exec($sql);
 
             return true;
