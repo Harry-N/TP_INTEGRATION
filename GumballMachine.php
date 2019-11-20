@@ -191,7 +191,7 @@ class GumballMachine
         }
 
     }
-    /*
+
     public function DeleteAllP()
     {
         try
@@ -224,5 +224,5 @@ class GumballMachine
             echo $sql . "<br>" . $e->getMessage();
         }
 
-    }*/
+    }
 }
