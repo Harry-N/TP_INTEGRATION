@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b2e498ed-b919-4621-9c5a-07cb3ddb3863" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GumballMachine.php" beforeDir="false" afterPath="$PROJECT_DIR$/GumballMachine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/GumballMachineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GumballMachineTest.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GumballMachine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="1282">
               <caret line="106" column="33" lean-forward="true" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
             </state>
           </provider>
@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="58" column="159" selection-start-line="58" selection-start-column="159" selection-end-line="58" selection-end-column="159" />
+            <state relative-caret-position="556">
+              <caret line="67" column="85" selection-start-line="67" selection-start-column="85" selection-end-line="67" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -40,12 +40,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/GumballMachineTest.php" />
         <option value="$PROJECT_DIR$/GumballMachine.php" />
+        <option value="$PROJECT_DIR$/tests/GumballMachineTest.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -84,7 +84,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574242529720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574242648638" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -112,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574236382899</updated>
       <workItem from="1574236384434" duration="2735000" />
-      <workItem from="1574240336847" duration="2180000" />
+      <workItem from="1574240336847" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="Question 4">
       <created>1574240856364</created>
@@ -149,11 +149,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574242330055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Question 4">
+      <created>1574242636934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574242636934</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4915000" />
+    <option name="totallyTimeSpent" value="5445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,10 +172,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.041608877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.020134227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -211,15 +218,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GumballMachine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="1282">
           <caret line="106" column="33" lean-forward="true" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="58" column="159" selection-start-line="58" selection-start-column="159" selection-end-line="58" selection-end-column="159" />
+        <state relative-caret-position="556">
+          <caret line="67" column="85" selection-start-line="67" selection-start-column="85" selection-end-line="67" selection-end-column="85" />
         </state>
       </provider>
     </entry>
