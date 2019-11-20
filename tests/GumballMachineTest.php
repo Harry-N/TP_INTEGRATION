@@ -89,7 +89,7 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
 
     }
 
-    public function DeleteP()
+    public function testDeleteP()
     {
         $this->assertEquals(true,$this->gumballMachineInstance->DeleteP("XXX1","YYY1"));
         $this->assertEquals(true,$this->gumballMachineInstance->AffichageProf("After Delete of Prof"));
