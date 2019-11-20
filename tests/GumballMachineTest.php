@@ -84,7 +84,7 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
 
     public function testDeleteC()
     {
-        $this->assertEquals(true,$this->gumballMachineInstance->DeleteC("EDL"));
+        $this->assertEquals(true,$this->gumballMachineInstance->DeleteC("C++"));
         $this->assertEquals(true,$this->gumballMachineInstance->AffichageCours("After Delete of Courses"));
 
     }
