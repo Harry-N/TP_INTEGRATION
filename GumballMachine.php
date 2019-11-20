@@ -158,12 +158,12 @@ class GumballMachine
         }
 	}
 
-	public function DeleteP($idProf)
+	public function DeleteP($nom, $prenom)
     {
         try
         {
             $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = "DELETE FROM prof (nom, prenom, date_naissance, lieu_naissance) where id = '$idProf'";
+            $sql = "DELETE FROM prof where nom= '$nom'and prenom='$prenom'";
             $this->bdd->exec($sql);
 
             return true;
@@ -175,12 +175,12 @@ class GumballMachine
 
     }
 
-    public function DeleteC($idCours)
+    public function DeleteC($intitule)
     {
         try
         {
             $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = "DELETE FROM cours (nom, prenom, date_naissance, lieu_naissance) where id = '$idCours)'";
+            $sql = "DELETE FROM cours where intitule = '$intitule'";
             $this->bdd->exec($sql);
 
             return true;
