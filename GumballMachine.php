@@ -130,7 +130,7 @@ class GumballMachine
         try
         {
             $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = "UPDATE  prof SET lieu='$lieu' where nom='$nom' and prenom = '$prenom'";
+            $sql = "UPDATE  prof SET lieu_naissance='$lieu' where nom='$nom' and prenom = '$prenom'";
             $this->bdd->exec($sql);
 
             return true;
