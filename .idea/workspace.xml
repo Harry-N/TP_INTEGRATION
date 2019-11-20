@@ -4,7 +4,6 @@
     <list default="true" id="b2e498ed-b919-4621-9c5a-07cb3ddb3863" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GumballMachine.php" beforeDir="false" afterPath="$PROJECT_DIR$/GumballMachine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GumballMachineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GumballMachineTest.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GumballMachine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="144" column="45" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
+            <state relative-caret-position="221">
+              <caret line="142" column="5" lean-forward="true" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="73" column="92" selection-start-line="73" selection-start-column="92" selection-end-line="73" selection-end-column="92" />
+            <state relative-caret-position="446">
+              <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -41,8 +40,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GumballMachine.php" />
         <option value="$PROJECT_DIR$/tests/GumballMachineTest.php" />
+        <option value="$PROJECT_DIR$/GumballMachine.php" />
       </list>
     </option>
   </component>
@@ -85,7 +84,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574244470246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574244552428" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -113,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574236382899</updated>
       <workItem from="1574236384434" duration="2735000" />
-      <workItem from="1574240336847" duration="4021000" />
+      <workItem from="1574240336847" duration="4282000" />
     </task>
     <task id="LOCAL-00001" summary="Question 4">
       <created>1574240856364</created>
@@ -164,11 +163,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574243075755</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Question 6 Update SQL">
+      <created>1574244401208</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574244401208</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Question 6 Update SQL">
+      <created>1574244477472</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574244477472</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Question 6 Update SQL">
+      <created>1574244498191</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574244498191</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6756000" />
+    <option name="totallyTimeSpent" value="7017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,23 +239,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Question 4" />
     <MESSAGE value="Question 4&#10;Affichages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question 4&#10;Affichages" />
+    <MESSAGE value="Question 6 Update SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question 6 Update SQL" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GumballMachine.php">
+    <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="144" column="45" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
+        <state relative-caret-position="446">
+          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
+    <entry file="file://$PROJECT_DIR$/GumballMachine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="73" column="92" selection-start-line="73" selection-start-column="92" selection-end-line="73" selection-end-column="92" />
+        <state relative-caret-position="221">
+          <caret line="142" column="5" lean-forward="true" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
         </state>
       </provider>
     </entry>
