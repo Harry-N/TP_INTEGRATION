@@ -125,13 +125,70 @@ class GumballMachine
 	    
 	}
 	
-	public function UpdateP()
+	public function UpdateP($nom, $prenom,$date_naissance,$lieu,$idProf)
 	{
+        try
+        {
+            $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $sql = "UPDATE  prof (nom, prenom, date_naissance, lieu_naissance) SET nom='$nom',prenom='$prenom', date_naissance='$date_naissance',lieu='$lieu' where id = '$idProf)'";
+            $this->bdd->exec($sql);
+
+            return true;
+        }
+        catch(PDOException $e)
+        {
+            echo $sql . "<br>" . $e->getMessage();
+        }
 	    
 	}
 	
-	public function DeleteP()
+	public function UpdateC($intitule, $duree)
 	{
-	    
+        try
+        {
+            $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $sql = "UPDATE cours (intitule, duree, id_prof) SET  duree='$duree', intitule='$intitule')";
+            $this->bdd->exec($sql);
+
+            return "good job";
+        }
+        catch(PDOException $e)
+        {
+            echo $sql . "<br>" . $e->getMessage();
+        }
 	}
+
+	public function DeleteP($idProf)
+    {
+        try
+        {
+            $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $sql = "DELETE FROM prof (nom, prenom, date_naissance, lieu_naissance) where id = '$idProf)'";
+            $this->bdd->exec($sql);
+
+            return true;
+        }
+        catch(PDOException $e)
+        {
+            echo $sql . "<br>" . $e->getMessage();
+        }
+
+    }
+
+    public function DeleteC($idCours)
+    {
+        try
+        {
+            $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $sql = "DELETE FROM cours (nom, prenom, date_naissance, lieu_naissance) where id = '$idCours)'";
+            $this->bdd->exec($sql);
+
+            return true;
+        }
+        catch(PDOException $e)
+        {
+            echo $sql . "<br>" . $e->getMessage();
+        }
+
+    }
 }

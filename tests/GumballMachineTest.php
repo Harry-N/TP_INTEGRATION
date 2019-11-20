@@ -29,9 +29,9 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
         $max__id1=$this->gumballMachineInstance->GetLastIDP();
 
         $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),$this->nom,$this->prenom,$this->date_naissance,$this->lieu_naissance));
-        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX1","YYY1","29-09-1980","ZZZ1"));
-        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX2","YYY2","30-10-1981","ZZZ2"));
-        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX3","YYY3","31-12-1982","ZZZ3"));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX1","YYY1","1980-09-29","ZZZ1"));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX2","YYY2","1981-10-30","ZZZ2"));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX3","YYY3","1982-12-31","ZZZ3"));
 
         $max__id2=$this->gumballMachineInstance->GetLastIDP();
         $this->assertEquals($max__id1+4,$max__id2);
@@ -66,6 +66,13 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
     {
         /*� completer*/
         $this->assertEquals(true,$this->gumballMachineInstance->AffichageCours("After Insertion of Courses"));
+    }
+
+    public function testUpdateC()
+    {
+        $this->assertEquals(true,$this->gumballMachineInstance->UpdateC("30","C++" ));
+        $this->assertEquals(true,$this->gumballMachineInstance->AffichageCours("After Update of Courses"));
+
     }
 
    
