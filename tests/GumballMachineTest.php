@@ -16,6 +16,7 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
     
 
 
+
     public function setUp()
     {
         $this->gumballMachineInstance = new GumballMachine();

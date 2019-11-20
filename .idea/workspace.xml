@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+            <state relative-caret-position="136">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -83,7 +83,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574248471385" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574248748006" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -111,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574236382899</updated>
       <workItem from="1574236384434" duration="2735000" />
-      <workItem from="1574240336847" duration="8095000" />
+      <workItem from="1574240336847" duration="8350000" />
     </task>
     <task id="LOCAL-00001" summary="Question 4">
       <created>1574240856364</created>
@@ -323,11 +323,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574248219469</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Partie 2">
+      <created>1574248724817</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1574248724817</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10830000" />
+    <option name="totallyTimeSpent" value="11085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,7 +388,8 @@
     <MESSAGE value="Question 6 Update SQL" />
     <MESSAGE value="Question 6 Update SQL&#10;Update Prof" />
     <MESSAGE value="Question 7 Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question 7 Delete" />
+    <MESSAGE value="Partie 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Partie 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -396,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        <state relative-caret-position="136">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
