@@ -34,7 +34,7 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(true,$this->gumballMachineInstance->InsertP($this->gumballMachineInstance->getDB(),"XXX3","YYY3","31-12-1982","ZZZ3"));
 
         $max__id2=$this->gumballMachineInstance->GetLastIDP();
-        $this->assertEquals($max__id1+3,$max__id2);
+        $this->assertEquals($max__id1+4,$max__id2);
     }
     public function testAffichageProfAPI()
     {
@@ -52,16 +52,14 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
     {
        
         /*� completer*/
-        $id_prof=$this->gumballMachineInstance->GetIDP("XXX2", "YYY2");
-        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"IOT","10",$this->$id_prof ));
+        $max__id1=$this->gumballMachineInstance->GetLastIDC();
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"IOT","10",$this-> GetIDP("XXX2", "YYY2")));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"IA","12",$this->GetIDP("XXX1", "YYY1")));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"C++","18",$this->GetIDP("XXX3", "YYY3")));
+        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"EDL","30",$this->GetIDP("XXX3", "YYY3") ));
 
-        $id_prof=$this->gumballMachineInstance->GetIDP("XXX1", "YYY1");
-        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"IA","12",$this->$id_prof ));
-
-        $id_prof=$this->gumballMachineInstance->GetIDP("XXX3", "YYY3");
-        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"C++","18",$this->$id_prof ));
-        $this->assertEquals(true,$this->gumballMachineInstance->InsertC($this->gumballMachineInstance->getDB(),"EDL","30",$this->$id_prof ));
-
+        $max__id2=$this->gumballMachineInstance->GetLastIDC();
+        $this->assertEquals($max__id1+4,$max__id2);
     }
     public function testAffichageCoursAPI()
     {
