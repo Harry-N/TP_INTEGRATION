@@ -157,7 +157,7 @@ class GumballMachine
             echo $sql . "<br>" . $e->getMessage();
         }
 	}
-
+/*
 	public function DeleteP($nom, $prenom)
     {
         try
@@ -174,7 +174,7 @@ class GumballMachine
         }
 
     }
-
+*/
     public function DeleteC($intitule)
     {
         try
@@ -191,6 +191,7 @@ class GumballMachine
         }
 
     }
+    /*
     public function DeleteAllP()
     {
         try
@@ -223,5 +224,5 @@ class GumballMachine
             echo $sql . "<br>" . $e->getMessage();
         }
 
-    }
+    }*/
 }
