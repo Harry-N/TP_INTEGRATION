@@ -97,14 +97,14 @@ class GumballMachineTest extends PHPUnit_Framework_TestCase
     }
     public function testDeleteAllC()
     {
-        $this->assertEquals(true,$this->gumballMachineInstance->DeleteC());
+        $this->assertEquals(true,$this->gumballMachineInstance->DeleteAllC());
         $this->assertEquals(true,$this->gumballMachineInstance->AffichageCours("After Delete all of Courses"));
 
     }
 
     public function testDeleteAllP()
     {
-        $this->assertEquals(true,$this->gumballMachineInstance->DeleteP());
+        $this->assertEquals(true,$this->gumballMachineInstance->DeleteAllP());
         $this->assertEquals(true,$this->gumballMachineInstance->AffichageProf("After Delete all of Prof"));
 
     }
