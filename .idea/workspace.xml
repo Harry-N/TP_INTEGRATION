@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b2e498ed-b919-4621-9c5a-07cb3ddb3863" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GumballMachine.php" beforeDir="false" afterPath="$PROJECT_DIR$/GumballMachine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GumballMachineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GumballMachineTest.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="253">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
         </entry>
@@ -47,9 +45,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -85,10 +83,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574248886474" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574249021253" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,7 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574236382899</updated>
       <workItem from="1574236384434" duration="2735000" />
-      <workItem from="1574240336847" duration="8643000" />
+      <workItem from="1574240336847" duration="8715000" />
+      <workItem from="1574841402354" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="Question 4">
       <created>1574240856364</created>
@@ -339,11 +341,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574248866612</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Partie 2">
+      <created>1574249027726</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1574249027726</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11378000" />
+    <option name="totallyTimeSpent" value="11823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,7 +367,7 @@
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.041608877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15672676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -413,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="253">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
